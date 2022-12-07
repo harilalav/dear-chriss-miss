@@ -193,7 +193,7 @@ body {
   }
   
 #content{
-    font-size: 15px;
+    font-size: 17px;
 }
 .typing {
     width: 100%;
@@ -257,6 +257,12 @@ body {
   }
 }
 @media all and (max-width:480px){
+  .image-container::after {
+    width: 200px;
+    height: 200px;
+    background-position-x: 430px;
+    background-position-y: 490px;
+}
   .main{
     min-height: 100vh;
     height: auto;
