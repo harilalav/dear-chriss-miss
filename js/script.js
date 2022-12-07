@@ -3,9 +3,9 @@ var caption = '';
 
 
 $(document).ready(function() {
+    $("#my_audio").get(0).play();
     setInterval ('cursorAnimation()', 1000);
     captionEl = $('#content');
-    $("#my_audio").get(0).play();
     testTypingEffect();
 });
 
