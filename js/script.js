@@ -7,6 +7,7 @@ $(document).ready(function() {
     setInterval ('cursorAnimation()', 1000);
     captionEl = $('#content');
     testTypingEffect();
+    $("#intro").delay(2000).fadeIn("slow");
 });
 
 function testTypingEffect() {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <style>
         body{
@@ -18,12 +19,17 @@
         #ok{
             backdrop-filter: blur( 17px );
             -webkit-backdrop-filter: blur( 17px );
-            border-radius: 10px;
-            padding: 3px 25px;
-            display: inline-block;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
             text-align: center;
             text-decoration: none;
-            color: #bd0cba
+            color: #bd0cba;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            font-size: 35px;
         }
     </style>
 </head>
@@ -34,8 +40,12 @@
         <div class="shape shape3"></div>
     </div>
     <div class="pop-up">
+        <b>To the Best Teacher Ever! Thank you for making a difference!</b> <br />
+
         This site has audio enabled.
-        <a href="home.html" id="ok">OK</a>
+        <a href="home.html" id="ok">
+            <i class="zmdi zmdi-chevron-right"></i>
+        </a>
     </div>
     <script src="./js/script.js"></script>
 </body>
